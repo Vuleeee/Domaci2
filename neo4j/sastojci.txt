@@ -1,0 +1,100 @@
+CREATE (:Sastojak {sastojakId: '0', naziv: 'Pasta', kategorija: 'Testenina'});
+CREATE (:Sastojak {sastojakId: '1', naziv: 'Jaja', kategorija: 'Jaja'});
+CREATE (:Sastojak {sastojakId: '2', naziv: 'Sir', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '3', naziv: 'Slanina', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '4', naziv: 'Biber', kategorija: 'Začini'});
+CREATE (:Sastojak {sastojakId: '5', naziv: 'Piletina', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '6', naziv: 'Alfredo Sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '7', naziv: 'Sunka', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '8', naziv: 'Parmezan sir', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '9', naziv: 'Paradajz sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '10', naziv: 'Mocarela sir', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '11', naziv: 'Pavlaka', kategorija: 'Mlecni proizvod'});
+CREATE (:Sastojak {sastojakId: '12', naziv: 'Mlecni kackavalj', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '13', naziv: 'Sojin sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '14', naziv: 'Masline', kategorija: 'Povrće'});
+
+CREATE (:Sastojak {sastojakId: '15', naziv: 'Pirinač', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '16', naziv: 'Losos', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '17', naziv: 'Avokado', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '18', naziv: 'Nori alge', kategorija: 'Morski plod'});
+CREATE (:Sastojak {sastojakId: '19', naziv: 'Susam', kategorija: 'Zacin'});
+
+CREATE (:Sastojak {sastojakId: '20', naziv: 'Crni luka', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '21', naziv: 'Sirce', kategorija: 'Zacini'});
+CREATE (:Sastojak {sastojakId: '22', naziv: 'Majonez', kategorija: 'Zacini'});
+CREATE (:Sastojak {sastojakId: '23', naziv: 'Bazilika', kategorija: 'Začini'});
+CREATE (:Sastojak {sastojakId: '24', naziv: 'Maslinovo ulje', kategorija: 'Ulja'});
+
+CREATE (:Sastojak {sastojakId: '25', naziv: 'Svinjske rebra', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '26', naziv: 'BBQ sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '27', naziv: 'Smeđi šećer', kategorija: 'Začini'});
+CREATE (:Sastojak {sastojakId: '28', naziv: 'Grasak', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '29', naziv: 'Crvena paprika', kategorija: 'Povrće'});
+
+CREATE (:Sastojak {sastojakId: '30', naziv: 'Škampi', kategorija: 'Morski plodovi'});
+CREATE (:Sastojak {sastojakId: '31', naziv: 'Beli luk', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '32', naziv: 'Belo vino', kategorija: 'Alkohol'});
+CREATE (:Sastojak {sastojakId: '33', naziv: 'Puter', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '34', naziv: 'Linguine testenina', kategorija: 'Testenina'});
+
+CREATE (:Sastojak {sastojakId: '35', naziv: 'Kiseli krastavcici', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '36', naziv: 'Jogurt', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '37', naziv: 'Đumbir', kategorija: 'Začin'});
+CREATE (:Sastojak {sastojakId: '38', naziv: 'Sargarepa', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '39', naziv: 'Tandoori začin', kategorija: 'Začini'});
+
+CREATE (:Sastojak {sastojakId: '40', naziv: 'Zelena salata', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '41', naziv: 'Kupus', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '42', naziv: 'Kruton', kategorija: 'Testenina'});
+CREATE (:Sastojak {sastojakId: '43', naziv: 'Cezarov sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '44', naziv: 'Rotkvice', kategorija: 'Povrce'});
+
+CREATE (:Sastojak {sastojakId: '45', naziv: 'Teleći odrezak', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '46', naziv: 'Brokoli', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '47', naziv: 'Kisele paprike', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '48', naziv: 'Zelena salata', kategorija: 'Povrce'});
+
+CREATE (:Sastojak {sastojakId: '49', naziv: 'Kukuruz secerac', kategorija: 'Povrce'});
+CREATE (:Sastojak {sastojakId: '50', naziv: 'Spargla', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '51', naziv: 'Limun', kategorija: 'Voće'});
+CREATE (:Sastojak {sastojakId: '52', naziv: 'Jabuka', kategorija: 'Voće'});
+
+CREATE (:Sastojak {sastojakId: '53', naziv: 'Patlidžan', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '54', naziv: 'Paradajz', kategorija: 'Voće'});
+CREATE (:Sastojak {sastojakId: '55', naziv: 'Kruska', kategorija: 'Voće'});
+CREATE (:Sastojak {sastojakId: '56', naziv: 'Bosiljak', kategorija: 'Začini'});
+CREATE (:Sastojak {sastojakId: '57', naziv: 'Narandza', kategorija: 'Voće'});
+
+CREATE (:Sastojak {sastojakId: '60', naziv: 'Govedje meso', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '61', naziv: 'Crno vino', kategorija: 'Alkohol'});
+CREATE (:Sastojak {sastojakId: '62', naziv: 'Krompir', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '63', naziv: 'Zeleni pasulj', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '64', naziv: 'Banana', kategorija: 'Voće'});
+
+CREATE (:Sastojak {sastojakId: '66', naziv: 'Plavi sir', kategorija: 'Mlečni proizvod'});
+CREATE (:Sastojak {sastojakId: '67', naziv: 'Bufalo sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '68', naziv: 'Tortilja', kategorija: 'Testenina'});
+
+CREATE (:Sastojak {sastojakId: '70', naziv: 'Filet telapije', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '71', naziv: 'Cajun zacin', kategorija: 'Začini'});
+CREATE (:Sastojak {sastojakId: '72', naziv: 'Kukuruzno brasno', kategorija: 'Testenina'});
+CREATE (:Sastojak {sastojakId: '73', naziv: 'Lan', kategorija: 'Zacin'});
+CREATE (:Sastojak {sastojakId: '74', naziv: 'Tartar sos', kategorija: 'Sos'});
+
+CREATE (:Sastojak {sastojakId: '77', naziv: 'Golica', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '78', naziv: 'Teriyaki sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '79', naziv: 'Quinoa', kategorija: 'Voce'});
+CREATE (:Sastojak {sastojakId: '80', naziv: 'Orah', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '81', naziv: 'Ovas', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '82', naziv: 'Suncekretove semenke', kategorija: 'Meso'});
+CREATE (:Sastojak {sastojakId: '83', naziv: 'Pesto sos', kategorija: 'Sos'});
+CREATE (:Sastojak {sastojakId: '84', naziv: 'Trešnje', kategorija: 'Voće'});
+CREATE (:Sastojak {sastojakId: '85', naziv: 'Cija semenke', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '86', naziv: 'Pinjoli', kategorija: 'Orašasti plodovi'});
+CREATE (:Sastojak {sastojakId: '87', naziv: 'Slatki krompir', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '88', naziv: 'Crni pasulj', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '89', naziv: 'Brasno', kategorija: 'Povrće'});
+CREATE (:Sastojak {sastojakId: '90', naziv: 'Korijander',kategorija:"Zacin"});
+CREATE (:Sastojak {sastojakId: '91', naziv: 'Limeta',kategorija:"Voce"});
+CREATE (:Sastojak {sastojakId: '92', naziv: 'Virsla',kategorija:"Meso"});

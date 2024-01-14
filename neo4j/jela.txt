@@ -1,0 +1,258 @@
+CREATE (:Jelo {
+  jeloId: '1',
+  naziv: 'Pasta Carbonara',
+  opis: 'Klasično italijansko jelo od testenine sa jajima, sirom, slaninom i crnim biberom.',
+  sastojciIds: '0,1,2,3,4',
+  rejting: 20,
+  nacinPripreme:"
+    Skuvajte pastu prema uputstvima na pakovanju u posoljenoj vodi dok ne postane al dente.
+    U međuvremenu, iseckajte pancetu ili guanciale na male kockice. Ako koristite beli luk, sitno ga iseckajte.
+    U velikoj tiganju, na srednje jakoj vatri, propržite pancetu (ili guanciale) dok ne postane hrskava. Ako koristite beli luk, dodajte ga i pržite još 1-2 minuta.
+    Umutite jaja u posudi, dodajte rendani parmezan i pekorino, pa dobro promešajte.
+    Kada je pasta gotova, ocedite je, ali sačuvajte šolju vode od kuvanja.
+    Dodajte oceđenu pastu u tiganj sa pancetom (ili guanciale) i promešajte kako bi se sastojci sjedinili.
+    Sklonite tiganj s vatre i odmah dodajte smesu jaja i sira, brzo mešajući kako bi se formirala kremasta, ali ne previše gustava, umak. Ako je potrebno, dodajte malo vode od kuvanja paste kako biste postigli željenu konzistenciju.
+  "
+});
+
+-------------------------------------------------------------------------------------
+CREATE (:Label {
+  multilineProperty: "
+    Ovo je viselinijski string
+    koji se proteže preko više redova.
+    Koristan je za duže tekstualne sadržaje.
+  "
+})
+ovako treba da izgleda, prilikom kopiranja se menja, takoda pazi inace radi kako treba sve
+------------------------------------------------------------------
+CREATE (:Jelo {
+  jeloId: '2',
+  naziv: 'Chicken Alfredo',
+  opis: 'Sočna piletina sa Alfredo sosom, servirana preko testenine.',
+  sastojciIds: '5,6,0,8,9',
+  rejting:18,
+  nacinPripreme:" Skuvajte testeninu prema uputstvima na pakovanju u posoljenoj vodi dok ne postane al dente. Na srednje jakoj vatri, u velikoj tiganju, rastopite puter. Dodajte iseckane pileće komade i pržite ih dok ne postanu zlatno smeđi. Dodajte beli luk i pržite još 1-2 minuta dok ne postane mirisno. Smanjite temperaturu i dodajte pavlaku za kuvanje, rendani parmezan i rendirani mocarela sir. Miješajte dok se sir ne istopi i umak postane kremast. Posolite i pobiberite umak po ukusu. Ako je potrebno, možete dodati malo vode od kuvanja testenine kako biste postigli željenu konzistenciju umaka. Kada je testenina kuvana, ocedite je i dodajte u tiganj sa sosom. Dobro promešajte kako bi se testenina obložila umakom."
+});
+
+CREATE (:Jelo {
+  jeloId: '3',
+  naziv: 'Vegeterijanska Pizza',
+  opis: 'Pizza sa raznovrsnim povrćem i sirom na tankom testu.',
+  sastojciIds: '10,9,14',
+  rejting:30,
+  nacinPripreme:"Zagrejte rernu na 220 stepeni Celzijusa. Razvaljajte sveže testo na željenu veličinu i oblik na pobrašnjenom radnom stolu. Premazite koru paradajz sosom, pospite rendanim mocarela i parmezan sirom, rasporedite povrće po ukusu. Pecite oko 12-15 minuta ili dok ne postane zlatno smeđa."
+});
+
+CREATE (:Jelo {
+  jeloId: '4',
+  naziv: 'Sushi',
+  opis: 'Raznovrsni komadići sushija, sa svežom ribom i povrćem.',
+  sastojciIds: '15,16,17,18,13',
+  rejting:90,
+  nacinPripreme:"Pripremite sushi pirinač prema uputstvima na pakovanju. Rasporedite pirinač po nori algi, stavite nadev po izboru (riba, povrće). Uvijte rolnice i secite na komade. Poslužite sa soja sosom i đumbirom."
+});
+
+CREATE (:Jelo {
+  jeloId: '5',
+  naziv: 'Margarita Pasta',
+  opis: 'Testenina sa paradajz sosom, mozzarellom i bosiljkom.',
+  sastojciIds: '0,9,10,23,24',
+  rejting:50,
+nacinPripreme:"Skuvajte špagete. Na srednje jakoj vatri, u tiganju, propržite sitno iseckan beli luk u maslinovom ulju. Dodajte seckani paradajz, posolite/pobiberite(po ukusu) i kuvajte dok paradajz ne omekša. Dodajte sveži bosiljak i pomešajte sa špagetama."
+});
+
+CREATE (:Jelo {
+  jeloId: '6',
+  naziv: 'BBQ Rebarca',
+  opis: 'Svinjske rebra pečene na roštilju sa sočnim BBQ sosom.',
+  sastojciIds: '25,26,27,31,29',
+  rejting:40,
+  nacinPripreme:"Rebrarca premažite BBQ sosom, zacinite po ukusu. Pecite u prethodno zagrijanoj rerni na 180 stepeni Celzijusa oko 1.5 sat."
+});
+
+CREATE (:Jelo {
+  jeloId: '7',
+  naziv: 'škampi',
+  opis: 'Skampe isprzeni u maslinovom ulju sa raznovrsnim povrcem i pastom',
+  sastojciIds: '30,31,32,33,34',
+  rejting:49,
+  nacinPripreme:"Propržite škampe na maslinovom ulju. Dodajte beli luk, crvenu papriku i peršun. Posolite i pobiberite. Poslužite preko kuvane testenine."
+});
+
+CREATE (:Jelo {
+  jeloId: '8',
+  naziv: 'Tandoori piletina',
+  opis: 'Piletina marinirana u tandoori začinima, pečena u tradicionalnom indijskom tandoor-u.',
+  sastojciIds: '5,36,37,31,39',
+  rejting:43,
+  nacinPripreme:"Marinirajte pileće komade u tandori sosu. Pecite na roštilju ili u rerni dok ne budu sočni i pečeni."
+});
+
+CREATE (:Jelo {
+  jeloId: '9',
+  naziv: 'Caesar salata',
+  opis: 'Salata sa svežim listovima zelene salate, piletinom, parmezanom i Caesar dresingom.',
+  sastojciIds: '40,8,42,43',
+  rejting:47,
+  nacinPripreme:"Pomešajte seckanu zelenu salatu sa rendanim parmezanom, kriškama pilećeg mesa i prelijte Cezar sosom.
+
+"
+});
+
+CREATE (:Jelo {
+  jeloId: '10',
+  naziv: 'Junetina na kineski nacin',
+  opis: 'Junetina sa povrćem u kineskom wok-u, poslužena sa soja sosom.',
+  sastojciIds: '45,46,47,13,15',
+  rejting:46,
+  nacinPripreme:"Pržite tanko sečene komade govedine u woku sa povrćem (paprika, brokoli) u soja sosu. Poslužite preko pirinča."
+});
+
+CREATE (:Jelo {
+  jeloId: '11',
+  naziv: 'Grilled Salmon',
+  opis: 'Grilovani filet lososa sa šparglom, preliven limunom i maslinovim uljem.',
+  sastojciIds: '16,50, 51,24,4',
+  rejting:48,
+  nacinPripreme:"Grilujte losos na roštilju s maslinovim uljem, limunom, belim lukom i biberom."
+});
+
+CREATE (:Jelo {
+  jeloId: '12',
+  naziv: 'Eggplant Parmesan',
+  opis: 'Slojevi patlidžana, paradajza, belog luka, bosiljka i mozzarelle sira pečeni do savršenstva.',
+  sastojciIds: '53, 54, 31, 56,10',
+  rejting:45,
+  nacinPripreme:"Ređajte kolutove patlidžana s parmezanom i paradajz sosom. Pecite u rerni dok ne omekša i zapeče.
+
+"
+});
+
+CREATE (:Jelo {
+  jeloId: '13',
+  naziv: 'Filet Mignon',
+  opis: 'Grilovani filet od goveđeg mesa poslužen sa bogatim sosom od crnog vina, pireom od krompira i zelenim pasuljem.',
+  sastojciIds: '60, 61, 62, 63, 24',
+  rejting:49,
+  nacinPripreme:"Pecite filet govedjeg mesa na tiganju do željenog stepena pečenosti u crnom vinu i posluzite sa pasuljem."
+});
+
+CREATE (:Jelo {
+  jeloId: '14',
+  naziv: 'Buffalo piletina vrap',
+  opis: 'Izrendana piletina u buffalo sosu sa dresingom od plavog sira, umotana u tortilju sa celera i šargarepom.',
+  sastojciIds: '5, 66, 67, 68',
+  rejting:47,
+  nacinPripreme:"Pileće meso premažite buffalo sosom, stavite u tortilju s seckanim paradajzom, zeljenom salatom i sirom."
+});
+
+CREATE (:Jelo {
+  jeloId: '15',
+  naziv: 'Cajun Tilapia',
+  opis: 'Filet tilapije začinjen cajun začinom, obložen kukuruznim brašnom, poslužen sa tartar sosom.',
+  sastojciIds: '70, 71, 72, 74',
+  prejting:44,
+  nacinPripreme:"Posolite i pobiberite tilapiju, začinite kajun začinom. Pecite na tiganju s maslinovim uljem."
+});
+
+CREATE (:Jelo {
+  jeloId: '16',
+  naziv: 'Omlet',
+  opis: 'Omlet sa 3 jaja',
+  sastojciIds: ['1'],
+  rejting:50,
+  nacinPripreme:"Umutite 3 jaja i isprzite na tiganju."
+});
+
+CREATE (:Jelo {
+  jeloId: '17',
+  naziv: 'Teriyaki losos sa quinoa',
+  opis: 'Grilovani teriyaki losos poslužen sa quinoa-om, brokolijem i prelivom od soja sosa.',
+  sastojciIds: '16, 78, 79, 46, 13',
+  rejting:46,
+  nacinPripreme:"Grilujte losos s teriyaki sosom. Poslužite preko kuvane quinoe."
+});
+
+CREATE (:Jelo {
+  jeloId: '18',
+  naziv: 'Pesto piletina sa paradjzom',
+  opis: 'Pečena pileća prsa sa pesto sosom, posuta trešnjama paradajzom, pinjolima i parmezan sirom.',
+  sastojciIds: '5, 83, 84, 54, 86',
+  prosečnaOcena: '47',
+  nacinPripreme:"Pileće grudi prelijte pesto sosom i dodajte iseckani paradajz. Pecite u rerni."
+});
+
+CREATE (:Jelo {
+  jeloId: '19',
+  naziv: 'Slatki krompir u posudi',
+  opis: 'Pečeni slatki krompir i crni pasulj u posudi, posuti avokadom, korijanderom i limunom.',
+  sastojciIds: '87, 88, 17, 90, 91',
+  rejting:45,
+  nacinPripreme:"Služite pirinač s pečenim slatkim krompirom, crnim pasuljem, korijanderom, avokadom i limunom."
+});
+
+CREATE (:Jelo {
+  jeloId: '20',
+  naziv: 'Susam salata',
+  opis: 'Salata sa pavlakom,susamom,iseckanom sunkom i kackavaljem',
+  sastojciIds: '7, 11, 12, 19',
+  rejting:45,
+  nacinPripreme:"Iseckajte sunku kackavalj i izmutite sve sa pavlakom i susamom"
+});
+
+CREATE (:Jelo {
+  jeloId: '21',
+  naziv: 'Krompir salata',
+  opis: 'Ukiseljenja salata sa krompirom i crnim lukom',
+  sastojciIds: '62, 20, 21',
+  rejting:45,
+nacinPripreme:"Skuvajte krompir, sacekajte da se ohladi i isecite na kolutove, isecite crni luka isto na kolutove i sve zajedno izmesajte sa sircem u posudi."
+});
+
+CREATE (:Jelo {
+  jeloId: '22',
+  naziv: 'Ruska salata',
+  opis: 'Salata u majonezu sa kuvanim povrcem i sunkom',
+  sastojciIds: '22, 28, 7,35,62,38',
+  rejting:45,
+  nacinPripreme:"Isecite sitno kvano povrce po zelji,sunku i sve izmutite u majonezu"
+});
+
+CREATE (:Jelo {
+  jeloId: '23',
+  naziv: 'Vitaminska salata',
+  opis: 'Salata sa kupusom ,rotkvicama, zelenom saltom, susamom i kukuruz-secercem',
+  sastojciIds: '41,44,48,49,19',
+  rejting:45,
+  nacinPripreme:"Isecite kupus, zelenu salatu, rotkvice ,prkuvajte kukuruz i sve stavite u jednu ciniju"
+});
+
+CREATE (:Jelo {
+  jeloId: '24',
+  naziv: 'Vocna salata',
+  opis: 'Salata sa vocem',
+  sastojciIds: '52,55,57,64,19',
+  rejting:45,
+  nacinPripreme:"Isecite voce na sitne komade i stavite u ciniju, po mogucnosti i slag"
+});
+CREATE (:Jelo {
+  jeloId: '25',
+  naziv: 'Proteinski hleba',
+  opis: 'Hleba sa semkam',
+  sastojciIds: '1,36,73,77,80,81,82,85,89',
+  rejting:45,
+  nacinPripreme:"Zagrejte rernu na 180 stepeni Celzijusa. Pomešajte (ovseno) brašno, protein u prahu, semenke lana, semenke suncokreta, prašak za pecivo i so u jednoj posudi. U drugoj posudi umutite jaja, pa dodajte jogurt i ulje. Dobro promešajte. Polako dodajte suve sastojke u mokre sastojke, mešajući dok ne dobijete homogenu smesu. Sipajte smesu u pleh za hleb prethodno obložen papirom za pečenje. Pecite u prethodno zagrejanoj rerni oko 45-55 minuta, ili dok čačkalica umetnuta u sredinu ne izađe čista."
+});
+
+CREATE (:Jelo {
+  jeloId: '26',
+  naziv: 'Kuvana virsla',
+  opis: 'Najlakse jelo ',
+  sastojciIds: '92',
+  rejting:45,
+  nacinPripreme:"Skuvajte u loncu virslu i po mogucnosti posluzite sa majonezom"
+});
+
+
+
+
