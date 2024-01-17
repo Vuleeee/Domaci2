@@ -1,0 +1,26 @@
+<button (click)="addDish()">Dodaj Jelo</button>
+<br>
+<input
+  type="text"
+  placeholder="Unesite sastojke..."
+  [(ngModel)]="userInput"
+  (input)="filterIngredients()"
+/>
+
+<ul *ngIf="filteredIngredients.length > 0">
+  <li *ngFor="let ingredient of filteredIngredients">
+    {{ ingredient }}
+  </li>
+</ul>
+
+
+<h2>Top 3 Jela</h2>
+<ul>
+  <li *ngFor="let dish of topRatedDishes">
+    {{ dish.name }} - Ocjena: {{ dish.rating }}
+  </li>
+</ul>
+
+<ul>
+    <li *ngFor="let category of ingredientCategories">{{ category }}</li>
+  </ul>
